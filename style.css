@@ -119,6 +119,16 @@
     font-size: 55px;
     font-weight: 800;
 }
+@media screen and (max-width:1300px) {
+    .text p:nth-child(1) {
+        font-size: 35px;
+        text-align: center;
+    }
+    .text p{
+        font-size: 20px;
+        text-wrap: wrap;;
+    }
+}
 
 .p2 {
     font-size: 25px;
@@ -397,7 +407,8 @@
     font-family: 'Poppins';
     font-weight: 700;
     color: white;
-    transform: translateX(160px);
+    position:relative;
+    left:170px;
     margin-bottom: 10px;
     width:80vw;
 }
@@ -407,12 +418,6 @@
 .third{
    background-color: black;
     height:100%;
-}
-@media screen and (max-width:1300px){
-    .third{
-        height: 100%;
-        width:100vw;
-    }
 }
 
 
